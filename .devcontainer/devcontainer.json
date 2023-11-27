@@ -1,20 +1,3 @@
 {
-  "image": "ghcr.io/lonrun/docker/getting-started:latest",
-  "hostRequirements": {
-    "cpus": 2
-  },
-  "waitFor": "onCreateCommand",
-  "updateContentCommand": "python3 -m pip install -r requirements.txt",
-  "postCreateCommand": "",
-  "customizations": {
-    "codespaces": {
-      "openFiles": []
-    },
-    "vscode": {
-      "extensions": [
-        "ms-toolsai.jupyter",
-        "ms-python.python"
-      ]
-    }
-  }
+  "image": "ghcr.io/lonrun/docker/getting-started:latest"
 }
