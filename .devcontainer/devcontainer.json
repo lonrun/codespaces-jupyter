@@ -1,7 +1,7 @@
 {
-  "image": "ghcr.io/lonrun/codefuse-query-tutorial:0.1",
+  "image": "ghcr.io/lonrun/docker/getting-started:latest",
   "hostRequirements": {
-    "cpus": 4
+    "cpus": 2
   },
   "waitFor": "onCreateCommand",
   "updateContentCommand": "python3 -m pip install -r requirements.txt",
